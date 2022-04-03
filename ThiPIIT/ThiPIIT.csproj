@@ -216,6 +216,7 @@
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
+<<<<<<< HEAD
     <Content Include="Views\Admin\AddMarket.cshtml" />
     <Content Include="Views\Admin\AddCoin.cshtml" />
     <Content Include="Views\Admin\Market.cshtml" />
@@ -223,6 +224,12 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+=======
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="Views\Admin\" />
+>>>>>>> e4169470f5d849d04b532720870f167e55dd13e4
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

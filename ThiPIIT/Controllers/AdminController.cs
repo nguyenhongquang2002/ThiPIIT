@@ -3,13 +3,17 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+<<<<<<< HEAD
 using ThiPIIT.Data;
 using ThiPIIT.Models;
+=======
+>>>>>>> e4169470f5d849d04b532720870f167e55dd13e4
 
 namespace ThiPIIT.Controllers
 {
     public class AdminController : Controller
     {
+<<<<<<< HEAD
         MyDBContext db = new MyDBContext();
         // GET: Admin
         public ActionResult Market()
@@ -77,5 +81,12 @@ namespace ThiPIIT.Controllers
 
             return View(coin);
         }
+=======
+        // GET: Admin
+        public ActionResult Index()
+        {
+            return View();
+        }
+>>>>>>> e4169470f5d849d04b532720870f167e55dd13e4
     }
 }
